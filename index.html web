@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Money Buckets by Jordan Haney</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://th.bing.com/th/id/OIP.K3S7rXcJN0mpKNM_AAu-WAHaEo?w=270&h=180&c=7&r=0&o=5&pid=1.7') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+
+    header {
+      background-color: rgba(0, 100, 0, 0.8); /* Dark green with transparency */
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: rgba(0, 100, 0, 0.8); /* Dark green with transparency */
+      padding: 10px 40px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 60px 40px;
+      text-align: center;
+      background-color: rgba(236, 240, 241, 0.8);
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    footer {
+      background-color: rgba(0, 100, 0, 0.8); /* Dark green with transparency */
+      color: white;
+      text-align: center;
+      padding: 20px 40px;
+    }
+
+    #intro .intro-container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    #intro .intro-text {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    #intro img {
+      max-width: 40%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      #intro .intro-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #intro img {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Money Buckets</h1>
+  <p>Smart Financial Planning with Jordan Haney</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#buckets">Money Buckets</a>
+  <a href="#learn">Learn More</a>
+  <a href="#intro">Introduction to Finance</a>
+</nav>
+
+<section class="hero">
+  <h1>Welcome to Financial Clarity</h1>
+  <p>Learn to manage your money using the proven "Money Buckets" method and build a future of financial confidence.</p>
+</section>
+
+<div class="content">
+  <div id="about" class="section">
+    <h2>About Jordan Haney</h2>
+    <p>Hi! My name is Jordan Haney. I’m 16 years old and currently a junior at Desert Oasis High School. I’ve developed a strong interest in personal finance, especially in teaching others how to manage their money more effectively. One of my favorite methods to talk about is the “money bucket” technique—a simple and smart way to organize finances by dividing income into different categories or goals.</p>
+    <p>I believe that learning how to save, budget, and plan financially is something everyone should know, no matter their age. It’s a skill that can change your life, reduce stress, and help you build a better future. That’s why I’m passionate about helping others—especially teens—understand how money works and how to use it wisely.</p>
+    <p>In the future, I hope to continue sharing what I know, whether through teaching, workshops, or online content. I want to make finance easy to understand, practical, and even fun for people my age and beyond.</p>
+  </div>
+
+  <div id="intro" class="section">
+    <h2>Introduction to Finance</h2>
+    <div class="intro-container">
+      <div class="intro-text">
+        <p><strong>Welcome to Financial Freedom: Building a Strong Foundation for Your Future</strong></p>
+        <p>Understanding your finances is one of the most important steps you can take toward securing your future. Whether you’re just starting out in your financial journey or looking to refine your money management skills, the basics of finance provide the foundation for long-term success.</p>
+
+        <p><strong>What is Personal Finance?</strong></p>
+        <p>Personal finance involves the management of your money, savings, and investments in order to meet your financial goals. This encompasses everything from budgeting your monthly expenses to making smart decisions about saving, investing, and planning for retirement. At its core, personal finance is about making your money work for you so that you can live comfortably now, while also preparing for a secure future.</p>
+      </div>
+      <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11a6aae1-551c-492e-b3a9-2a0330bf7afb_1728x2304.png" alt="Finance Image">
+    </div>
+  </div>
+
+  <div id="buckets" class="section">
+    <h2>Understanding Money Buckets: A Simple System for Smarter Finances</h2>
+    <p>In today's fast-paced world, managing personal finances can often feel overwhelming. Many individuals struggle to keep track of their spending, save effectively, or simply understand where their money is going each month. One practical and accessible solution to this common problem is the concept of "money buckets." This budgeting strategy involves dividing income into specific categories or "buckets" for various purposes, making it easier to manage money with intention. By implementing money buckets, individuals can gain clarity, reduce stress, and achieve greater financial control.</p>
+
+    <p>At its core, the money bucket system is a method of organizing finances by allocating funds into different categories based on spending needs and goals. Rather than viewing money as one large pool, it is divided into smaller portions, each designated for a specific purpose. Common buckets might include essentials such as rent and groceries, savings for emergencies or future goals, and discretionary spending for entertainment or travel. This structure allows for more mindful spending, as individuals can easily see how much is available in each category and avoid dipping into funds meant for other purposes.</p>
+
+    <p>The importance of money buckets lies in the financial clarity and discipline they promote. When individuals know exactly how much money is available for each category, they are less likely to overspend or neglect savings goals. This system also reduces the likelihood of financial surprises, such as running out of money before the end of the month. Furthermore, money buckets can alleviate feelings of guilt or anxiety around spending. When there is a designated amount set aside for things like dining out or hobbies, people can enjoy those experiences without worrying that they are sabotaging their financial future.</p>
+
+    <p>Setting up money buckets is a straightforward process that begins with a clear understanding of one's income and expenses. After calculating monthly earnings, individuals can create core categories that reflect their lifestyle and financial responsibilities. A common guideline is the 50/30/20 rule, where 50% of income is allocated to needs, 30% to wants, and 20% to savings or debt repayment. However, this ratio can be adjusted to suit personal circumstances and goals. Buckets can be tracked through separate bank accounts, budgeting apps, or spreadsheets—whichever method feels most manageable and intuitive.</p>
+
+    <p>Once the system is in place, maintaining it requires consistency and occasional adjustment. Regularly reviewing the status of each bucket helps individuals stay accountable and aware of their spending habits. Automation can also be a powerful tool, allowing money to be transferred directly into each bucket as soon as income is received. Life circumstances are bound to change, so it is important to revisit and revise buckets as needed. For instance, a new job, a major purchase, or a change in family size may call for a different allocation of funds. Being flexible ensures that the system remains useful and aligned with evolving financial goals.</p>
+
+    <p>In conclusion, the money bucket system is a simple yet effective strategy for gaining control over personal finances. By dividing income into clearly defined categories, individuals can reduce financial stress, stay on track with their goals, and enjoy greater confidence in their spending decisions. Whether someone is just beginning their financial journey or looking to improve their current habits, money buckets offer a structured yet adaptable approach to budgeting that can lead to lasting financial well-being.</p>
+  </div>
+
+  <div id="learn" class="section">
+    <h2>Learn More: Why Financial Knowledge and Saving Matter for Your Future</h2>
+    <p>In a world where the cost of living continues to rise and unexpected expenses are a part of life, understanding personal finance has never been more important. Financial knowledge is not just about managing money—it's about making money work for you, building wealth, and achieving long-term financial security.</p>
+    <p>At a young age, it's easy to underestimate the power of saving and investing. However, starting early can lead to exponential growth over time, especially when compounded interest comes into play. The earlier you begin saving, the more you can take advantage of the time value of money.</p>
+    <p>In this section, you'll find valuable resources, tips, and tools that will help you improve your financial literacy and take the next steps toward building a solid financial foundation. Whether it's learning how to budget, understanding credit, or exploring ways to save and invest, you're taking the right step toward securing your future.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Jordan Haney - All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
+
+
+
